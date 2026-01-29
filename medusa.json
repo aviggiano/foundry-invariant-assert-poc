@@ -5,7 +5,7 @@
     "timeout": 0,
     "testLimit": 0,
     "callSequenceLength": 100,
-    "corpusDirectory": "medusa",
+    "corpusDirectory": "corpus/medusa",
     "coverageEnabled": true,
     "deploymentOrder": [
 
@@ -55,7 +55,7 @@
       "propertyTesting": {
         "enabled": true,
         "testPrefixes": [
-          "echidna_"
+          "invariant_"
         ]
       },
       "optimizationTesting": {
@@ -83,7 +83,7 @@
   "compilation": {
     "platform": "crytic-compile",
     "platformConfig": {
-      "target": ".",
+      "target": "test/recon/CryticTester.sol",
       "solcVersion": "",
       "exportDirectory": "",
       "args": [

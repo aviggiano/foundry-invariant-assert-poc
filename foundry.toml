@@ -2,5 +2,14 @@
 src = "src"
 out = "out"
 libs = ["lib"]
+evm_version = "shanghai"
 
+[invariant]
+runs = 500000000
+depth = 100
+include_storage = true
+show_solidity = true
+show_metrics = true
+fail_on_revert = false
+corpus_dir = "corpus/foundry"
 # See more config options https://github.com/foundry-rs/foundry/blob/master/crates/config/README.md#all-options

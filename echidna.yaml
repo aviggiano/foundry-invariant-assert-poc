@@ -1,7 +1,7 @@
 testMode: "assertion"
-prefix: "echidna_"
+prefix: "invariant_"
 coverage: true
-corpusDir: "echidna"
+corpusDir: "corpus/echidna"
 balanceAddr: 0x1043561a8829300000
 balanceContract: 0x1043561a8829300000
 filterFunctions: []

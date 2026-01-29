@@ -18,3 +18,4 @@ crytic-export
 echidna
 medusa
 .vscode
+slither_results.json

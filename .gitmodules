@@ -1,3 +1,9 @@
 [submodule "lib/forge-std"]
 	path = lib/forge-std
 	url = https://github.com/foundry-rs/forge-std
+[submodule "lib/setup-helpers"]
+	path = lib/setup-helpers
+	url = git@github.com:Recon-Fuzz/setup-helpers.git
+[submodule "lib/chimera"]
+	path = lib/chimera
+	url = git@github.com:Recon-Fuzz/chimera.git

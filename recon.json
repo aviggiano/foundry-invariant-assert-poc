@@ -1,0 +1,18 @@
+{
+  "out/Counter.sol/Counter.json": {
+    "enabled": true,
+    "functions": [
+      {
+        "signature": "increment()",
+        "actor": "actor",
+        "mode": "normal"
+      },
+      {
+        "signature": "setNumber(uint256)",
+        "actor": "actor",
+        "mode": "normal"
+      }
+    ],
+    "separated": true
+  }
+}

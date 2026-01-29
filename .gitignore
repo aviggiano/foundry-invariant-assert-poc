@@ -12,3 +12,9 @@ docs/
 
 # Dotenv file
 .env
+
+# Coverage files
+crytic-export
+echidna
+medusa
+.vscode

@@ -13,5 +13,6 @@ abstract contract Properties is BeforeAfter, Asserts {
 
   function assert_number_is_always_42() public {
     eq(counter.number(), 42, "Number is always 42");
+    counter.increment();
   }
 }

@@ -9,19 +9,13 @@ import {Panic} from "@recon/Panic.sol";
 
 // Targets
 // NOTE: Always import and apply them in alphabetical order, so much easier to debug!
-import { AdminTargets } from "./targets/AdminTargets.sol";
-import { CounterTargets } from "./targets/CounterTargets.sol";
-import { DoomsdayTargets } from "./targets/DoomsdayTargets.sol";
-import { ManagersTargets } from "./targets/ManagersTargets.sol";
+import {AdminTargets} from "./targets/AdminTargets.sol";
+import {CounterTargets} from "./targets/CounterTargets.sol";
+import {DoomsdayTargets} from "./targets/DoomsdayTargets.sol";
+import {ManagersTargets} from "./targets/ManagersTargets.sol";
 
-abstract contract TargetFunctions is
-    AdminTargets,
-    CounterTargets,
-    DoomsdayTargets,
-    ManagersTargets
-{
-    /// CUSTOM TARGET FUNCTIONS - Add your own target functions here ///
+abstract contract TargetFunctions is AdminTargets, CounterTargets, DoomsdayTargets, ManagersTargets {
+/// CUSTOM TARGET FUNCTIONS - Add your own target functions here ///
 
-
-    /// AUTO GENERATED TARGET FUNCTIONS - WARNING: DO NOT DELETE OR MODIFY THIS LINE ///
+/// AUTO GENERATED TARGET FUNCTIONS - WARNING: DO NOT DELETE OR MODIFY THIS LINE ///
 }

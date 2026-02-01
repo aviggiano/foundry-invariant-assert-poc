@@ -12,17 +12,13 @@ abstract contract BeforeAfter is Setup {
     Vars internal _before;
     Vars internal _after;
 
-    modifier updateGhosts {
+    modifier updateGhosts() {
         __before();
         _;
         __after();
     }
 
-    function __before() internal {
+    function __before() internal {}
 
-    }
-
-    function __after() internal {
-
-    }
+    function __after() internal {}
 }

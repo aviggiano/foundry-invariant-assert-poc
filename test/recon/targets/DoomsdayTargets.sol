@@ -10,10 +10,7 @@ import {vm} from "@chimera/Hevm.sol";
 // Helpers
 import {Panic} from "@recon/Panic.sol";
 
-abstract contract DoomsdayTargets is
-    BaseTargetFunctions,
-    Properties
-{
+abstract contract DoomsdayTargets is BaseTargetFunctions, Properties {
     /// Makes a handler have no side effects
     /// The fuzzer will call this anyway, and because it reverts it will be removed from shrinking
     /// Replace the "withGhosts" with "stateless" to make the code clean
